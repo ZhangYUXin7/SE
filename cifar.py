@@ -27,7 +27,7 @@ def main():
 
 if __name__ == "__main__":
     import argparse
-
+    # 新项目
     p = argparse.ArgumentParser()
     p.add_argument("--epochs", type=int, default=200)
     p.add_argument("--batch_size", type=int, default=64)
